@@ -25,7 +25,7 @@ import math
 #elif(sayi3>sayi1 and sayi3>sayi2):
 #    print("En buyuk sayi:",sayi3)
 #else:
-    print("Ayni sayilari girdiniz , lutfen tekrar deneyiniz.")
+#    print("Ayni sayilari girdiniz , lutfen tekrar deneyiniz.")
 
 #4-Dairenin alanını ve çevresini hesaplayan python kodunu yazınız.(Dairenin yarıçapını kullanıcıdan alınız)
 #yaricap = int(input("Dairenin yarıçapını girin: "))
