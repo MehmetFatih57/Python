@@ -25,8 +25,6 @@ vki = vucutKitleIndeksi(boy , kilo)
 print("Vucut Kitle Indeksi" , vki)
 print("Durumunuz" , vkiDurumu(vki))
 
-
-
 #2-Maaşı ve zam oranı girilen işçinin zamlı maaşını hesaplayarak ekranda gösteriniz.
 #maas = 50000
 #zamOrani = 10
