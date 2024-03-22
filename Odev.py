@@ -7,23 +7,23 @@ import math
 #vki=kilo/(boy*boy)
 #print("vücut kitle indeksiniz:",vki)
 
-def vucutKitleIndeksi(b , w):
-    vki = w/(b*b)
-    return vki
-def vkiDurumu(vki):
-    if vki < 18.5:
-        return "Ideal Kilonuzun Altindasiniz"
-    elif 18.5 <= vki < 25:
-        return "Normal"
-    elif 25 <= vki < 30:
-        return "Fazla Kilolu"
-    else:
-        return"Obez"           
-boy = float(input("Lutfen boyunuzu giriniz : "))
-kilo = float(input ("Lutfen kilonuzu giriniz :"))       
-vki = vucutKitleIndeksi(boy , kilo)
-print("Vucut Kitle Indeksi" , vki)
-print("Durumunuz" , vkiDurumu(vki))
+#def vucutKitleIndeksi(b , w):
+#    vki = w/(b*b)
+#    return vki
+#def vkiDurumu(vki):
+#    if vki < 18.5:
+#        return "Ideal Kilonuzun Altindasiniz"
+#    elif 18.5 <= vki < 25:
+#        return "Normal"
+#    elif 25 <= vki < 30:
+#        return "Fazla Kilolu"
+#    else:
+#        return"Obez"           
+#boy = float(input("Lutfen boyunuzu giriniz : "))
+#kilo = float(input ("Lutfen kilonuzu giriniz :"))       
+#vki = vucutKitleIndeksi(boy , kilo)
+#print("Vucut Kitle Indeksi" , vki)
+#print("Durumunuz" , vkiDurumu(vki))
 
 #2-Maaşı ve zam oranı girilen işçinin zamlı maaşını hesaplayarak ekranda gösteriniz.
 #maas = 50000
@@ -64,4 +64,3 @@ print("Durumunuz" , vkiDurumu(vki))
 #    print("Girdiginiz sayi palindromdur.")
 #else:
 #    print("Girdiginiz sayi palindrom degildir.")
-
